@@ -15,7 +15,7 @@ database_name = "relay"
 # 後台網域；留 "*" 放行所有來源（API 仍需 Bearer token）。上線後建議改成你的後台網址。
 DASH_ORIGIN = "*"
 # 後台統計時區偏移（小時）。台灣 +8；其他地區改成你的時區（例：美西 -8、UTC 0）。
-TZ_OFFSET = "8"
+TZ_OFFSET = "5.5"
 # 目的地網域黑名單（逗號分隔，含子網域）。留空＝不啟用。例："bit.ly,grabify.link"
 BLOCKLIST = ""
 # 尊重 Do-Not-Track / Global-Privacy-Control：設 "1" 後送 DNT/GPC 的訪客不被記錄。留空＝照常記錄。
